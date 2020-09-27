@@ -11,8 +11,7 @@ import Foundation
     
 public struct MidiNote {
     
-    private let regularTempoTimeStamp: MusicTimeStamp
-
+    public let regularTempoTimeStamp: MusicTimeStamp
     public let regularDuration: Float32
     public let timeStamp: MidiTime
     public let duration: MidiTime
